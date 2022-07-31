@@ -1,1 +1,3 @@
-export {};
+import menuItems from "./menu-items";
+
+export { menuItems };
