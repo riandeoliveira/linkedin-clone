@@ -1,0 +1,31 @@
+import type { IUserSuggestion } from "interfaces";
+
+const suggestedPeople: IUserSuggestion[] = [
+  {
+    fullname: "Nome e sobrenome",
+    career: "Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet",
+    avatar: "user-1",
+  },
+  {
+    fullname: "Nome e sobrenome",
+    career: "Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet",
+    avatar: "user-2",
+  },
+  {
+    fullname: "Nome e sobrenome",
+    career: "Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet",
+    avatar: "user-3",
+  },
+  {
+    fullname: "Nome e sobrenome",
+    career: "Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet",
+    avatar: "user-4",
+  },
+  {
+    fullname: "Nome e sobrenome",
+    career: "Título, cargo e tecnologias. Lorem Ipsum Dolor sit Amet",
+    avatar: "user-5",
+  },
+];
+
+export default suggestedPeople;

@@ -3,3 +3,9 @@ export interface IMenuItem {
   path: string;
   title: string;
 }
+
+export interface IUserSuggestion {
+  avatar: string;
+  career: string;
+  fullname: string;
+}
