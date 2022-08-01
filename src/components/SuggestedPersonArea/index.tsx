@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 const SuggestedPersonArea = (): JSX.Element => {
   return (
-    <aside className={styles.aside}>
+    <section className={styles.section}>
       <h2 className={styles.title}>As pessoas também viram</h2>
       <ul className={styles.list}>
         {suggestedPeople.map(({ fullname, career, avatar }, i) => (
@@ -17,7 +17,7 @@ const SuggestedPersonArea = (): JSX.Element => {
           />
         ))}
       </ul>
-    </aside>
+    </section>
   );
 };
 
