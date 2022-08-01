@@ -1,9 +1,7 @@
 @use "../../styles" as *;
 
 .main {
-  display: grid;
-  gap: 32px;
-  grid-template-columns: auto 320px;
-  justify-content: start;
-  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
