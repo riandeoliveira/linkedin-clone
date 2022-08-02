@@ -1,3 +1,4 @@
+import AboutArea from "./AboutArea";
 import Aside from "./Aside";
 import FeaturedPost from "./FeaturedPost";
 import Header from "./Header";
@@ -11,6 +12,7 @@ import SuggestedPersonArea from "./SuggestedPersonArea";
 import UserSuggestion from "./UserSuggestion";
 
 export {
+  AboutArea,
   Aside,
   FeaturedPost,
   Header,
