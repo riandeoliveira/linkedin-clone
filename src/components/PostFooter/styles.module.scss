@@ -1,0 +1,28 @@
+@use "../../styles" as *;
+
+.container {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.reactions {
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.reactions_container {
+  cursor: pointer;
+  display: flex;
+}
+
+.ellipse {
+  display: flex;
+  margin-left: -8px;
+}
+
+.data {
+  color: $primary-350;
+  font-size: 12px;
+}

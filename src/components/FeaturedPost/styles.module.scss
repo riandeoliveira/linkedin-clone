@@ -1,0 +1,30 @@
+@use "../../styles" as *;
+
+.post {
+  border: 1px solid $primary-350;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px 0;
+}
+
+.title {
+  color: $primary-350;
+  font-size: 12px;
+}
+
+.content {
+  color: $primary-090;
+  font-size: 14px;
+}
+
+.footer {
+  padding: 4px;
+}

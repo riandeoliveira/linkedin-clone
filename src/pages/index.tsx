@@ -1,13 +1,29 @@
-import { Main } from "components";
+import {
+  AboutArea,
+  Aside,
+  Header,
+  HighlightsArea,
+  Layout,
+  Main,
+  ProfileArea,
+  SuggestedPersonArea,
+} from "components";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {
   return (
     <>
-      <Main>
-        <h1>Hello, Rian Oliveira!</h1>
-        <h2>Have a nice coding ;)</h2>
-      </Main>
+      <Header />
+      <Layout>
+        <Main>
+          <ProfileArea />
+          <HighlightsArea />
+          <AboutArea />
+        </Main>
+        {/* <Aside>
+          <SuggestedPersonArea />
+        </Aside> */}
+      </Layout>
     </>
   );
 };

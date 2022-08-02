@@ -1,0 +1,9 @@
+@use "../../styles" as *;
+
+.main {
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-group;
+  gap: 8px;
+  width: 780px;
+}

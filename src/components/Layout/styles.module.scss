@@ -1,0 +1,8 @@
+@use "../../styles" as *;
+
+.layout {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 24px;
+}

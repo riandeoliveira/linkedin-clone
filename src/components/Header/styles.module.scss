@@ -1,0 +1,54 @@
+@use "../../styles" as *;
+
+.header {
+  background-color: $primary-870;
+  display: flex;
+  font-family: $primary-group;
+  height: 52px;
+  padding: 0 16px;
+}
+
+.header_container {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.input_container {
+  display: flex;
+  height: 34px;
+}
+
+.search_icon {
+  display: flex;
+  position: absolute;
+  transform: translate(12px, 9px);
+}
+
+.input {
+  @include accessibility($secondary-290);
+
+  background-color: $secondary-740;
+  color: $primary-090;
+  font-family: $primary-group;
+  font-size: 14px;
+  padding: 0 10px 0 42px;
+
+  &::placeholder {
+    color: $primary-090;
+  }
+}
+
+.nav {
+  display: flex;
+}
+
+.list {
+  display: flex;
+}
