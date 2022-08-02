@@ -1,6 +1,7 @@
 import {
   Aside,
   Header,
+  HighlightsArea,
   Layout,
   Main,
   ProfileArea,
@@ -15,6 +16,7 @@ const Home: NextPage = (): JSX.Element => {
       <Layout>
         <Main>
           <ProfileArea />
+          <HighlightsArea />
         </Main>
         <Aside>
           <SuggestedPersonArea />

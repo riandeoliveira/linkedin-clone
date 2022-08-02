@@ -1,0 +1,22 @@
+@use "../../styles" as *;
+
+.section {
+  background-color: $primary-870;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  font-family: $primary-group;
+  gap: 8px;
+  padding: 16px;
+}
+
+.title {
+  color: $primary-090;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.highlights {
+  display: flex;
+  gap: 16px;
+}
