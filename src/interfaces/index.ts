@@ -25,4 +25,5 @@ export interface IActivityPost extends IUserPost {
   author: string;
   content: string;
   date: string;
+  post: string;
 }
