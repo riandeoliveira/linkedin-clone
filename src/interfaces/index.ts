@@ -27,3 +27,17 @@ export interface IActivityPost extends IUserPost {
   date: string;
   post: string;
 }
+
+export interface IJobPosition {
+  duration: string;
+  job: string;
+  type: string;
+  workplace: string;
+}
+
+export interface IJobExperience {
+  company: string;
+  image: string;
+  period: string;
+  positions: IJobPosition[];
+}
