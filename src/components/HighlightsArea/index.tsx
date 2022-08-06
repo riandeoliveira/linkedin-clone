@@ -1,5 +1,5 @@
-import { FeaturedPost } from "components";
-import { featuredPosts } from "contents";
+import FeaturedPost from "components/FeaturedPost";
+import featuredPosts from "contents/featured-posts";
 import styles from "./styles.module.scss";
 
 const HighlightsArea = (): JSX.Element => {

@@ -1,5 +1,5 @@
-import { UserSuggestion } from "components";
-import { suggestedPeople } from "contents";
+import UserSuggestion from "components/UserSuggestion";
+import suggestedPeople from "contents/suggested-people";
 import styles from "./styles.module.scss";
 
 const SuggestedPersonArea = (): JSX.Element => {

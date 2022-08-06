@@ -1,5 +1,5 @@
-import { ActivityPost } from "components";
-import { activityPosts } from "contents";
+import ActivityPost from "components/ActivityPost";
+import activityPosts from "contents/activity-posts";
 import styles from "./styles.module.scss";
 
 const ActivitiesArea = (): JSX.Element => {

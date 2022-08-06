@@ -1,5 +1,5 @@
-import { MenuItem } from "components";
-import { menuItems } from "contents";
+import MenuItem from "components/MenuItem";
+import menuItems from "contents/menu-items";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
