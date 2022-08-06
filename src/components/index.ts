@@ -1,4 +1,6 @@
 import AboutArea from "./AboutArea";
+import ActivitiesArea from "./ActivitiesArea";
+import ActivityPost from "./ActivityPost";
 import Aside from "./Aside";
 import FeaturedPost from "./FeaturedPost";
 import Header from "./Header";
@@ -13,6 +15,8 @@ import UserSuggestion from "./UserSuggestion";
 
 export {
   AboutArea,
+  ActivitiesArea,
+  ActivityPost,
   Aside,
   FeaturedPost,
   Header,
