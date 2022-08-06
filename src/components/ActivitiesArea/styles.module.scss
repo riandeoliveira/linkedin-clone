@@ -1,0 +1,55 @@
+@use "../../styles" as *;
+
+.section {
+  background-color: $primary-870;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+}
+
+.section_container {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  padding: 10px 24px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.title {
+  color: $primary-090;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.followers {
+  color: $secondary-290;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.activities {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  border-top: 1px solid $primary-350;
+  display: flex;
+  justify-content: center;
+  padding: 8px;
+}
+
+.button {
+  background-color: transparent;
+  color: $primary-350;
+  cursor: pointer;
+  font-family: $primary-group;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+}

@@ -1,5 +1,6 @@
 import {
   AboutArea,
+  ActivitiesArea,
   Aside,
   Header,
   HighlightsArea,
@@ -18,6 +19,7 @@ const Home: NextPage = (): JSX.Element => {
         <Main>
           <ProfileArea />
           <HighlightsArea />
+          <ActivitiesArea />
           <AboutArea />
         </Main>
         {/* <Aside>
