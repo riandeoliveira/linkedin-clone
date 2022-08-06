@@ -7,6 +7,7 @@ import HighlightsArea from "components/HighlightsArea";
 import Layout from "components/Layout";
 import Main from "components/Main";
 import ProfileArea from "components/ProfileArea";
+import UserLanguagesArea from "components/UserLanguagesArea";
 import type { NextPage } from "next";
 
 const Home: NextPage = (): JSX.Element => {
@@ -21,6 +22,7 @@ const Home: NextPage = (): JSX.Element => {
           <AboutArea />
           <ExperiencesArea />
           <AcademicEducationsArea />
+          <UserLanguagesArea />
         </Main>
         {/* <Aside>
           <SuggestedPersonArea />
