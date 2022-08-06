@@ -41,3 +41,10 @@ export interface IJobExperience {
   period: string;
   positions: IJobPosition[];
 }
+
+export interface IAcademicEducation {
+  institution: string;
+  course: string;
+  duration: string;
+  image: string;
+}

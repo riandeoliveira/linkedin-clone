@@ -1,0 +1,29 @@
+@use "../../styles" as *;
+
+.container {
+  display: flex;
+  flex: auto;
+  gap: 9px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.institution {
+  color: $primary-090;
+}
+
+.course {
+  color: $primary-090;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.duration {
+  color: $primary-350;
+  font-size: 14px;
+  line-height: 16px;
+}
