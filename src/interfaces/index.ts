@@ -1,3 +1,5 @@
+import type { LanguageLevel } from "types";
+
 export interface IMenuItem {
   icon: JSX.Element;
   path: string;
@@ -47,4 +49,9 @@ export interface IAcademicEducation {
   course: string;
   duration: string;
   image: string;
+}
+
+export interface IUserLanguage {
+  language: string;
+  level: LanguageLevel;
 }
