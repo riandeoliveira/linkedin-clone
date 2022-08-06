@@ -1,4 +1,5 @@
 import AboutArea from "components/AboutArea";
+import AcademicEducationsArea from "components/AcademicEducationsArea";
 import ActivitiesArea from "components/ActivitiesArea";
 import ExperiencesArea from "components/ExperiencesArea";
 import Header from "components/Header";
@@ -19,6 +20,7 @@ const Home: NextPage = (): JSX.Element => {
           <ActivitiesArea />
           <AboutArea />
           <ExperiencesArea />
+          <AcademicEducationsArea />
         </Main>
         {/* <Aside>
           <SuggestedPersonArea />
