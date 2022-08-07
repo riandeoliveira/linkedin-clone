@@ -3,5 +3,7 @@
 .aside {
   display: flex;
   flex-direction: column;
+  font-family: $secondary-group;
   gap: 8px;
+  width: 320px;
 }
