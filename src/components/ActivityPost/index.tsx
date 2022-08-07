@@ -29,6 +29,7 @@ const ActivityPost = ({
             alt="Imagem de postagem do usuário"
             width={64}
             height={64}
+            objectFit="cover"
           />
           <p className={styles.content}>{content}</p>
         </div>

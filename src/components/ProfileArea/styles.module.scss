@@ -111,6 +111,10 @@
   display: flex;
   flex-direction: column;
   gap: 8px;
+
+  @include media-query($tablet-m) {
+    display: none;
+  }
 }
 
 .experience_container {
@@ -120,4 +124,14 @@
   font-weight: 400;
   gap: 8px;
   line-height: 20px;
+}
+
+@include media-query($mobile-m) {
+  .button_container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
 }

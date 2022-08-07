@@ -10,8 +10,5 @@
 }
 
 .title {
-  color: $primary-090;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 30px;
+  @include title;
 }

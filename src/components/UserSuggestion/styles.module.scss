@@ -42,5 +42,16 @@
   font-size: 14px;
   font-weight: 700;
   height: 28px;
+}
+
+.primary {
+  @extend .button;
+
   width: 154px;
+}
+
+.secondary {
+  @extend .button;
+
+  width: 100px;
 }

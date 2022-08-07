@@ -1,4 +1,5 @@
 @use "../colors" as *;
+@use "../fonts/" as *;
 
 @mixin accessibility($color) {
   border-radius: 0.25rem;
@@ -8,4 +9,11 @@
   &:focus-visible {
     box-shadow: 0 0 0 0.25rem $color;
   }
+}
+
+@mixin title {
+  color: $primary-090;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
 }
