@@ -12,6 +12,9 @@ const UserSuggestion = ({
   career,
   option,
 }: UserSuggestionProps): JSX.Element => {
+  const buttonStyles: string =
+    option === "Enviar mensagem" ? styles.primary : styles.secondary;
+
   return (
     <li className={styles.item}>
       <div className={styles.avatar}>
@@ -27,7 +30,7 @@ const UserSuggestion = ({
           <span className={styles.fullname}>{fullname}</span>
           <span className={styles.career}>{career}</span>
         </div>
-        <button type="button" className={styles.button}>
+        <button type="button" className={buttonStyles}>
           {option}
         </button>
       </div>

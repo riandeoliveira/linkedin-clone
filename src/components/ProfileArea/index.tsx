@@ -5,22 +5,17 @@ import styles from "./styles.module.scss";
 const ProfileArea = (): JSX.Element => {
   return (
     <section className={styles.section}>
-      <Image
-        src="/assets/icons/user-bg.svg"
-        alt="Capa do perfil do usuário"
-        width={780}
-        height={230}
-      />
-      <div className={styles.avatar}>
-        <Image
-          src="/assets/icons/user-avatar.svg"
-          alt="Imagem de perfil do usuário"
-          width={160}
-          height={160}
-        />
-      </div>
-      <div className={styles.data}>
+      <div className={styles.container}></div>
+      <div className={styles.section_container}>
         <div className={styles.about}>
+          <div className={styles.avatar}>
+            <Image
+              src="/assets/icons/user-avatar.svg"
+              alt="Imagem de perfil do usuário"
+              width={160}
+              height={160}
+            />
+          </div>
           <div className={styles.user_main}>
             <h1 className={styles.title}>Nome Sobrenome</h1>
             <span>Desenvolvedora | HTML | CSS | Typescript | Node</span>

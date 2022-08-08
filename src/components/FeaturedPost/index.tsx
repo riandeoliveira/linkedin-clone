@@ -23,6 +23,7 @@ const FeaturedPost = ({
         alt="Imagem da postagem do usuário"
         width={236}
         height={152}
+        objectFit="cover"
       />
       <div className={styles.footer}>
         <PostFooter reactions={reactions} comments={comments} />

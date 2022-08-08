@@ -23,3 +23,17 @@
   border-left: 1px solid $primary-350;
   margin-left: 5px;
 }
+
+@include media-query($tablet-m) {
+  .item {
+    width: 52px;
+
+    &:last-child {
+      display: none;
+    }
+  }
+
+  .title {
+    display: none;
+  }
+}

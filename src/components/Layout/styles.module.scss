@@ -2,7 +2,17 @@
 
 .layout {
   display: flex;
-  gap: 32px;
+  gap: 8px 32px;
   justify-content: center;
   margin-top: 24px;
+  padding: 0 16px 16px;
+
+  @include media-query($laptop-s) {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  @include media-query($tablet-s) {
+    margin-bottom: 52px;
+  }
 }

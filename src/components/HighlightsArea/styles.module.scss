@@ -10,12 +10,14 @@
 }
 
 .title {
-  color: $primary-090;
-  font-size: 20px;
-  font-weight: 500;
+  @include title;
 }
 
 .highlights {
   display: flex;
   gap: 16px;
+
+  @include media-query($tablet-s) {
+    flex-direction: column;
+  }
 }

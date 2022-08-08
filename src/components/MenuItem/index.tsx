@@ -6,11 +6,11 @@ interface MenuItemProps extends IMenuItem {}
 
 const MenuItem = ({ icon, path, title }: MenuItemProps): JSX.Element => {
   return (
-    <li className={`${styles.item} ${path === "/work" && styles.bar}`}>
+    <li className={`${styles.item} ${path === "/work" ? styles.bar : ""}`}>
       <Link href={path}>
         <a className={styles.link}>
           <div className={styles.icon}>{icon}</div>
-          <span>{title}</span>
+          <span className={styles.title}>{title}</span>
         </a>
       </Link>
     </li>
