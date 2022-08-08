@@ -1,8 +1,11 @@
 @use "../../styles" as *;
 
 .post {
+  @include accessibility($secondary-290);
+
   border: 1px solid $primary-350;
   border-radius: 8px;
+  cursor: pointer;
   display: flex;
   flex-direction: column;
   gap: 4px;

@@ -90,6 +90,8 @@
 }
 
 .button {
+  @include accessibility($secondary-740);
+
   border-radius: 16px;
   cursor: pointer;
   font-family: $primary-group;
@@ -97,7 +99,15 @@
   font-weight: 500;
   height: 32px;
   line-height: 20px;
+  transition-duration: 0.15s;
+  transition-property: background-color, color;
   width: 128px;
+
+  &:hover {
+    background-color: $primary-090;
+    border: 1px solid $primary-350;
+    color: $primary-870;
+  }
 }
 
 .primary {

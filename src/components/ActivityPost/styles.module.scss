@@ -1,6 +1,8 @@
 @use "../../styles" as *;
 
 .post {
+  @include accessibility($secondary-290);
+
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -12,7 +14,7 @@
   line-height: 20px;
 }
 
-.author {
+.author_container {
   &::after {
     content: "\00B7";
     font-weight: 500;
@@ -20,8 +22,18 @@
   }
 }
 
+.author {
+  cursor: pointer;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $secondary-290;
+  }
+}
+
 .post_container {
   align-items: center;
+  cursor: pointer;
   display: flex;
   gap: 8px;
 }

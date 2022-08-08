@@ -24,5 +24,11 @@
 
 .data {
   color: $primary-350;
+  cursor: pointer;
   font-size: 12px;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $secondary-290;
+  }
 }
