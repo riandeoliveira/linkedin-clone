@@ -5,14 +5,17 @@
   flex-direction: column;
 }
 
-.avatar {
-  display: flex;
-  margin-top: 94px;
-  padding: 24px;
-  position: absolute;
+.container {
+  background-image: url("../../../public/assets/icons/user-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px 16px 0 0;
+  height: 230px;
+  max-width: 780px;
+  width: 100%;
 }
 
-.data {
+.section_container {
   background-color: $primary-870;
   border-radius: 0 0 16px 16px;
   display: flex;
@@ -24,6 +27,11 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+}
+
+.avatar {
+  display: flex;
+  margin-top: -168px;
 }
 
 .user_main {
@@ -126,7 +134,16 @@
   line-height: 20px;
 }
 
-@include media-query($mobile-m) {
+@include media-query($mobile-l) {
+  .container {
+    height: 130px;
+  }
+
+  .section_container,
+  .avatar {
+    justify-content: center;
+  }
+
   .button_container {
     flex-direction: column;
   }
