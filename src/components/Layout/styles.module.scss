@@ -11,4 +11,8 @@
     align-items: center;
     flex-direction: column;
   }
+
+  @include media-query($tablet-s) {
+    margin-bottom: 52px;
+  }
 }
