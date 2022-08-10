@@ -1,6 +1,6 @@
 import MenuItem from "components/MenuItem";
-import menuItems from "contents/menu-items";
 import Image from "next/image";
+import menuItems from "./content";
 import styles from "./styles.module.scss";
 
 const Header = (): JSX.Element => {
@@ -33,6 +33,9 @@ const Header = (): JSX.Element => {
           </div>
           <nav className={styles.nav}>
             <ul className={styles.list}>
+              {/* {menuItems.map(({ title, path, icon }, i) => (
+                <MenuItem title={title} path={path} icon={icon} key={i} />
+              ))} */}
               {menuItems.map(({ title, path, icon }, i) => (
                 <MenuItem title={title} path={path} icon={icon} key={i} />
               ))}

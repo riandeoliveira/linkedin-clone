@@ -2,7 +2,7 @@ import ActivityPost from "components/ActivityPost";
 import activityPosts from "contents/activity-posts";
 import styles from "./styles.module.scss";
 
-const ActivitiesArea = (): JSX.Element => {
+const Activities = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <div className={styles.section_container}>
@@ -39,4 +39,4 @@ const ActivitiesArea = (): JSX.Element => {
   );
 };
 
-export default ActivitiesArea;
+export default Activities;

@@ -1,11 +1,5 @@
 import type { LanguageLevel } from "types";
 
-export interface IMenuItem {
-  icon: JSX.Element;
-  path: string;
-  title: string;
-}
-
 export interface IUserSuggestion {
   avatar: string;
   career: string;
@@ -51,7 +45,7 @@ export interface IAcademicEducation {
   image: string;
 }
 
-export interface IUserLanguage {
+export interface ILanguage {
   language: string;
   level: LanguageLevel;
 }

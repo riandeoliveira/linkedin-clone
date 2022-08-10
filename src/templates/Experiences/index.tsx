@@ -2,7 +2,7 @@ import JobExperience from "components/JobExperience";
 import jobExperiences from "contents/job-experiences";
 import styles from "./styles.module.scss";
 
-const ExperiencesArea = (): JSX.Element => {
+const Experiences = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>Experiências</h2>
@@ -21,4 +21,4 @@ const ExperiencesArea = (): JSX.Element => {
   );
 };
 
-export default ExperiencesArea;
+export default Experiences;

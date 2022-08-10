@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-const ProfileArea = (): JSX.Element => {
+const Profile = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <div className={styles.container}></div>
@@ -67,4 +67,4 @@ const ProfileArea = (): JSX.Element => {
   );
 };
 
-export default ProfileArea;
+export default Profile;

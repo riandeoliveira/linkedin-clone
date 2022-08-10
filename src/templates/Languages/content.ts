@@ -1,6 +1,6 @@
-import type { IUserLanguage } from "interfaces";
+import type { ILanguage } from "interfaces";
 
-const userLanguages: IUserLanguage[] = [
+const languages: ILanguage[] = [
   {
     language: "Português",
     level: "Fluente ou nativo",
@@ -11,4 +11,4 @@ const userLanguages: IUserLanguage[] = [
   },
 ];
 
-export default userLanguages;
+export default languages;

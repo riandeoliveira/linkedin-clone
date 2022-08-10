@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 
-const AboutArea = (): JSX.Element => {
+const About = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>Sobre</h2>
@@ -15,4 +15,4 @@ const AboutArea = (): JSX.Element => {
   );
 };
 
-export default AboutArea;
+export default About;

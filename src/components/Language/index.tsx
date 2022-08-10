@@ -1,11 +1,15 @@
-import type { IUserLanguage } from "interfaces";
+import type { ILanguage } from "interfaces";
 import styles from "./styles.module.scss";
 
-interface UserLanguageProps extends IUserLanguage {
+interface LanguageProps extends ILanguage {
   isLastLanguage: boolean;
 }
 
-const UserLanguage = ({ language, level, isLastLanguage }: UserLanguageProps): JSX.Element => {
+const Language = ({
+  language,
+  level,
+  isLastLanguage,
+}: LanguageProps): JSX.Element => {
   return (
     <>
       <div className={styles.container}>
@@ -17,4 +21,4 @@ const UserLanguage = ({ language, level, isLastLanguage }: UserLanguageProps): J
   );
 };
 
-export default UserLanguage;
+export default Language;

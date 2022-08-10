@@ -2,7 +2,7 @@ import FeaturedPost from "components/FeaturedPost";
 import featuredPosts from "contents/featured-posts";
 import styles from "./styles.module.scss";
 
-const HighlightsArea = (): JSX.Element => {
+const Highlights = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>Destaques</h2>
@@ -24,4 +24,4 @@ const HighlightsArea = (): JSX.Element => {
   );
 };
 
-export default HighlightsArea;
+export default Highlights;

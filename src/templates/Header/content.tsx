@@ -1,7 +1,6 @@
-import type { IMenuItem } from "interfaces";
 import Image from "next/image";
 
-const menuItems: IMenuItem[] = [
+const menuItems = [
   {
     title: "Início",
     path: "/feed",

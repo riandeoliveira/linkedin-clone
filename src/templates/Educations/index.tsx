@@ -2,7 +2,7 @@ import AcademicEducation from "components/AcademicEducation";
 import academicEducations from "contents/academic-educations";
 import styles from "./styles.module.scss";
 
-const AcademicEducationsArea = (): JSX.Element => {
+const Educations = (): JSX.Element => {
   return (
     <section className={styles.section}>
       <h2 className={styles.title}>Formação acadêmica</h2>
@@ -23,4 +23,4 @@ const AcademicEducationsArea = (): JSX.Element => {
   );
 };
 
-export default AcademicEducationsArea;
+export default Educations;
