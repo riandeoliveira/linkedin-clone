@@ -1,18 +1,22 @@
 import PostFooter from "components/PostFooter";
-import type { IFeaturedPost } from "interfaces";
+import type { IPost } from "interfaces";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-interface FeaturedPostProps extends IFeaturedPost {}
+interface HighlightProps extends IPost {
+  title: string;
+  content: string;
+  post: string;
+}
 
-const FeaturedPost = ({
+const Highlight = ({
   title,
   content,
   post,
   reactions,
   comments,
-}: FeaturedPostProps): JSX.Element => {
+}: HighlightProps): JSX.Element => {
   return (
     <Link href="/">
       <a className={styles.post}>
@@ -35,4 +39,4 @@ const FeaturedPost = ({
   );
 };
 
-export default FeaturedPost;
+export default Highlight;

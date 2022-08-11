@@ -1,5 +1,5 @@
-import FeaturedPost from "components/FeaturedPost";
-import featuredPosts from "contents/featured-posts";
+import Highlight from "components/Highlight";
+import highlights from "./content.json";
 import styles from "./styles.module.scss";
 
 const Highlights = (): JSX.Element => {
@@ -7,9 +7,9 @@ const Highlights = (): JSX.Element => {
     <section className={styles.section}>
       <h2 className={styles.title}>Destaques</h2>
       <div className={styles.highlights}>
-        {featuredPosts.map(
+        {highlights.map(
           ({ title, content, post, reactions, comments }, i) => (
-            <FeaturedPost
+            <Highlight
               title={title}
               content={content}
               post={post}

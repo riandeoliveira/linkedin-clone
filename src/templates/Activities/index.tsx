@@ -1,5 +1,5 @@
-import ActivityPost from "components/ActivityPost";
-import activityPosts from "contents/activity-posts";
+import Activity from "components/Activity";
+import activities from "./content.json";
 import styles from "./styles.module.scss";
 
 const Activities = (): JSX.Element => {
@@ -11,13 +11,13 @@ const Activities = (): JSX.Element => {
           <span className={styles.followers}>??? seguidores</span>
         </div>
         <div className={styles.activities}>
-          {activityPosts.map(
+          {activities.map(
             ({ author, content, post, date, reactions, comments }, i, list) => {
               const lastPost: number = list.length - 1;
               const isLastPost: boolean = lastPost === i;
 
               return (
-                <ActivityPost
+                <Activity
                   author={author}
                   content={content}
                   post={post}

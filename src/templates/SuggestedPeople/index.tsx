@@ -1,5 +1,5 @@
-import UserSuggestion from "components/UserSuggestion";
-import suggestedPeople from "contents/suggested-people";
+import Suggestion from "components/Suggestion";
+import suggestions from "./content.json";
 import styles from "./styles.module.scss";
 
 const SuggestedPersonArea = (): JSX.Element => {
@@ -7,8 +7,8 @@ const SuggestedPersonArea = (): JSX.Element => {
     <section className={styles.section}>
       <h2 className={styles.title}>As pessoas também viram</h2>
       <ul className={styles.list}>
-        {suggestedPeople.map(({ fullname, career, avatar }, i) => (
-          <UserSuggestion
+        {suggestions.map(({ fullname, career, avatar }, i) => (
+          <Suggestion
             fullname={fullname}
             career={career}
             avatar={avatar}

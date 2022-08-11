@@ -1,5 +1,5 @@
-import JobExperience from "components/JobExperience";
-import jobExperiences from "contents/job-experiences";
+import Experience from "components/Experience";
+import experiences from "./content.json";
 import styles from "./styles.module.scss";
 
 const Experiences = (): JSX.Element => {
@@ -7,8 +7,8 @@ const Experiences = (): JSX.Element => {
     <section className={styles.section}>
       <h2 className={styles.title}>Experiências</h2>
       <div className={styles.experiences}>
-        {jobExperiences.map(({ company, period, image, positions }, i) => (
-          <JobExperience
+        {experiences.map(({ company, period, image, positions }, i) => (
+          <Experience
             company={company}
             period={period}
             image={image}

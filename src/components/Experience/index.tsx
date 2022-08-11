@@ -1,16 +1,21 @@
 import JobPosition from "components/JobPosition";
-import type { IJobExperience } from "interfaces";
+import type { IJobPosition } from "interfaces";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-interface JobExperienceProps extends IJobExperience {}
+interface ExperienceProps {
+  company: string;
+  image: string;
+  period: string;
+  positions: IJobPosition[];
+}
 
-const JobExperience = ({
+const Experience = ({
   image,
   company,
   period,
   positions,
-}: JobExperienceProps): JSX.Element => {
+}: ExperienceProps): JSX.Element => {
   return (
     <div className={styles.experience}>
       <div className={styles.heading}>
@@ -40,4 +45,4 @@ const JobExperience = ({
   );
 };
 
-export default JobExperience;
+export default Experience;

@@ -1,11 +1,8 @@
+import type { IMenuItem } from "interfaces";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-interface MenuItemProps {
-  path: string;
-  icon: JSX.Element;
-  title: string;
-}
+interface MenuItemProps extends IMenuItem {}
 
 const MenuItem = ({ path, icon, title }: MenuItemProps): JSX.Element => {
   return (

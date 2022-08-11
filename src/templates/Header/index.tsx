@@ -33,9 +33,6 @@ const Header = (): JSX.Element => {
           </div>
           <nav className={styles.nav}>
             <ul className={styles.list}>
-              {/* {menuItems.map(({ title, path, icon }, i) => (
-                <MenuItem title={title} path={path} icon={icon} key={i} />
-              ))} */}
               {menuItems.map(({ title, path, icon }, i) => (
                 <MenuItem title={title} path={path} icon={icon} key={i} />
               ))}

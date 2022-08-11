@@ -1,15 +1,19 @@
-import type { IAcademicEducation } from "interfaces";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-interface AcademicEducationProps extends IAcademicEducation {}
+interface EducationProps {
+  image: string;
+  institution: string;
+  course: string;
+  duration: string;
+}
 
-const AcademicEducation = ({
+const Education = ({
   image,
   institution,
   course,
   duration,
-}: AcademicEducationProps): JSX.Element => {
+}: EducationProps): JSX.Element => {
   return (
     <div className={styles.container}>
       <div>
@@ -29,4 +33,4 @@ const AcademicEducation = ({
   );
 };
 
-export default AcademicEducation;
+export default Education;

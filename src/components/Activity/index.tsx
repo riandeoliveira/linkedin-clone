@@ -1,14 +1,18 @@
 import PostFooter from "components/PostFooter";
-import type { IActivityPost } from "interfaces";
+import type { IPost } from "interfaces";
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.scss";
 
-interface ActivityPostProps extends IActivityPost {
+interface ActivityProps extends IPost {
+  author: string;
+  date: string;
+  post: string;
+  content: string;
   isLastPost: boolean;
 }
 
-const ActivityPost = ({
+const Activity = ({
   author,
   date,
   post,
@@ -16,7 +20,7 @@ const ActivityPost = ({
   reactions,
   comments,
   isLastPost,
-}: ActivityPostProps): JSX.Element => {
+}: ActivityProps): JSX.Element => {
   return (
     <>
       <Link href="/">
@@ -45,4 +49,4 @@ const ActivityPost = ({
   );
 };
 
-export default ActivityPost;
+export default Activity;

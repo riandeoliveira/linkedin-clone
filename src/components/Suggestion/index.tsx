@@ -1,17 +1,19 @@
-import type { IUserSuggestion } from "interfaces";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-interface UserSuggestionProps extends IUserSuggestion {
+interface SuggestionProps {
+  avatar: string;
+  fullname: string;
+  career: string;
   option: "Enviar mensagem" | "Conectar";
 }
 
-const UserSuggestion = ({
+const Suggestion = ({
   avatar,
   fullname,
   career,
   option,
-}: UserSuggestionProps): JSX.Element => {
+}: SuggestionProps): JSX.Element => {
   const buttonStyles: string =
     option === "Enviar mensagem" ? styles.primary : styles.secondary;
 
@@ -38,4 +40,4 @@ const UserSuggestion = ({
   );
 };
 
-export default UserSuggestion;
+export default Suggestion;
