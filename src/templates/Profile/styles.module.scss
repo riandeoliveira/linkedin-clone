@@ -1,0 +1,164 @@
+@use "../../styles" as *;
+
+.section {
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  background-image: url("../../../public/assets/icons/user-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 16px 16px 0 0;
+  height: 230px;
+  max-width: 780px;
+  width: 100%;
+}
+
+.section_container {
+  background-color: $primary-870;
+  border-radius: 0 0 16px 16px;
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 24px 24px;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.avatar {
+  display: flex;
+  margin-top: -168px;
+}
+
+.user_main {
+  color: $primary-090;
+  font-weight: 500;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.keywords {
+  color: $primary-350;
+  font-size: 14px;
+}
+
+.local {
+  color: $primary-350;
+  font-size: 14px;
+
+  &::after {
+    content: "\00B7";
+    font-weight: 500;
+    padding: 0 6px;
+  }
+}
+
+.contact {
+  color: $secondary-290;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.followers {
+  color: $secondary-290;
+  font-size: 14px;
+  font-weight: 500;
+
+  &::after {
+    color: $primary-350;
+    content: "\00B7";
+    font-weight: 500;
+    padding: 0 6px;
+  }
+}
+
+.connections {
+  color: $secondary-290;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.button_container {
+  display: flex;
+  gap: 7px;
+}
+
+.button {
+  @include accessibility($secondary-740);
+
+  border-radius: 16px;
+  cursor: pointer;
+  font-family: $primary-group;
+  font-size: 14px;
+  font-weight: 500;
+  height: 32px;
+  line-height: 20px;
+  transition-duration: 0.15s;
+  transition-property: background-color, color;
+  width: 128px;
+
+  &:hover {
+    background-color: $primary-090;
+    border: 1px solid $primary-350;
+    color: $primary-870;
+  }
+}
+
+.primary {
+  @extend .button;
+  background-color: $secondary-290;
+
+  color: $primary-870;
+}
+
+.secondary {
+  @extend .button;
+
+  background-color: transparent;
+  border: 1px solid $secondary-290;
+  color: $secondary-290;
+}
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  @include media-query($tablet-m) {
+    display: none;
+  }
+}
+
+.experience_container {
+  align-items: center;
+  color: $primary-090;
+  display: flex;
+  font-weight: 400;
+  gap: 8px;
+  line-height: 20px;
+}
+
+@include media-query($mobile-l) {
+  .container {
+    height: 130px;
+  }
+
+  .section_container,
+  .avatar {
+    justify-content: center;
+  }
+
+  .button_container {
+    flex-direction: column;
+  }
+
+  .button {
+    width: 100%;
+  }
+}

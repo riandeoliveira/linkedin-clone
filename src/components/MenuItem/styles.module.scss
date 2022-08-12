@@ -1,0 +1,44 @@
+@use "../../styles" as *;
+
+.item {
+  display: flex;
+  width: 80px;
+}
+
+.icon {
+  display: flex;
+}
+
+.link {
+  align-items: center;
+  color: $primary-090;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  font-size: 12px;
+  justify-content: space-evenly;
+  transition: background-color 0.15s;
+
+  &:hover {
+    background-color: $secondary-740;
+  }
+}
+
+.bar {
+  border-left: 1px solid $primary-350;
+  margin-left: 5px;
+}
+
+@include media-query($tablet-m) {
+  .item {
+    width: 52px;
+
+    &:last-child {
+      display: none;
+    }
+  }
+
+  .title {
+    display: none;
+  }
+}

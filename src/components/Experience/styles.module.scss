@@ -1,0 +1,36 @@
+@use "../../styles" as *;
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.company {
+  color: $primary-090;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.period {
+  color: $primary-350;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.job_positions {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}

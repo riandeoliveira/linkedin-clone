@@ -1,0 +1,14 @@
+@use "../../styles" as *;
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  font-family: $secondary-group;
+  gap: 8px;
+  max-width: 320px;
+
+  @include media-query($laptop-s) {
+    max-width: 780px;
+    width: 100%;
+  }
+}

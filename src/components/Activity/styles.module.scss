@@ -1,0 +1,52 @@
+@use "../../styles" as *;
+
+.post {
+  @include accessibility($secondary-290);
+
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.heading {
+  color: $primary-350;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.author_container {
+  &::after {
+    content: "\00B7";
+    font-weight: 500;
+    padding: 0 3px;
+  }
+}
+
+.author {
+  cursor: pointer;
+  transition: color 0.15s;
+
+  &:hover {
+    color: $secondary-290;
+  }
+}
+
+.post_container {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+}
+
+.content {
+  color: $secondary-000;
+  font-size: 14px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.bar {
+  background-color: $primary-350;
+  height: 1px;
+  margin: 10px 0 6px;
+}
