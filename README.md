@@ -1,24 +1,21 @@
 <div align="center">
-  <h1>LinkedIn Clone</h1>
+  <img src=".github/header.svg" alt="7 Days Of Code logo" />
+  <br />
+  <img src=".github/logo.png" alt="HTML and CSS logo" />
+  <h1>🚀 LinkedIn Clone - #7DaysOfCode 🚀</h1>
 </div>
 
 ## 📚 Sobre
 
-<!-- Uma breve descrição do seu projeto -->
+Clone da página de perfil do **LinkedIn**.
 
 ## 🏗️ Desenvolvimento
 
-<!-- Detalhes sobre o desenvolvimento -->
-
-## 🕹️ Possui as seguintes funcionalidades:
-
-- Funcionalidade 1
-- Funcionalidade 2
-- Funcionalidade 3
+Projeto proposto pela desafiante [Natália F. da Silva](https://www.linkedin.com/in/natalia-f-da-silva/) durante o [7 Days Of Code](https://7daysofcode.io/) da [Alura](https://www.alura.com.br/).
 
 ## 📝 Notas
 
-<!-- Notas sobre o projeto -->
+Apesar das tecnologias propostas pelo desafio serem apenas **HTML** e **CSS**, optei por treinar utilizando minha stack atual.
 
 ## 🔎 Demonstração
 
@@ -60,9 +57,9 @@
     </tr>
     <tr>
       <td align="center" width="110" height="110">
-        <img src="https://skillicons.dev/icons?i=jest" />
+        <img src="https://skillicons.dev/icons?i=markdown" />
         <br>
-        <span>Jest</span>
+        <span>Markdown</span>
       </td>
       <td align="center" width="110" height="110">
         <img src="https://skillicons.dev/icons?i=sass" />
@@ -81,15 +78,11 @@
       </td>
     </tr>
     <tr>
+      <td align="center" width="110" height="110"></td>
       <td align="center" width="110" height="110">
-        <img src="https://skillicons.dev/icons?i=prisma" />
+        <img src="https://skillicons.dev/icons?i=jest" />
         <br>
-        <span>Prisma</span>
-      </td>
-      <td align="center" width="110" height="110">
-        <img src="https://skillicons.dev/icons?i=mongodb" />
-        <br>
-        <span>MongoDB</span>
+        <span>Jest</span>
       </td>
       <td align="center" width="110" height="110">
         <img src="https://skillicons.dev/icons?i=nodejs" />

@@ -1,6 +1,6 @@
 {
   "name": "linkedin-clone",
-  "description": "<YOUR_PROJECT_DESCRIPTION>",
+  "description": "Clone da página de perfil do LinkedIn.",
   "version": "0.1.0",
   "license": "MIT",
   "type": "module",
@@ -9,7 +9,7 @@
   "main": "src/pages/_app.tsx",
   "author": {
     "name": "Rian Oliveira",
-    "email": "<YOUR_EMAIL>"
+    "email": "riandiasdeoliveira2001@gmail.com"
   },
   "scripts": {
     "build": "next build",
@@ -58,7 +58,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "<YOUR_REPOSITORY_URL>"
+    "url": "https://github.com/riandeoliveira/LinkedInClone.git"
   },
   "keywords": [],
   "config": {
