@@ -1,5 +1,8 @@
 <div align="center">
-  <h1>LinkedIn Clone</h1>
+  <img src=".github/header.svg" alt="7 Days Of Code logo" />
+  <br />
+  <img src=".github/logo.png" alt="HTML and CSS logo" />
+  <h1>🚀 LinkedIn Clone - #7DaysOfCode 🚀</h1>
 </div>
 
 ## 📚 Sobre
