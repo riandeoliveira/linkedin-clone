@@ -1,8 +1,8 @@
-import type { IUserPost } from "interfaces";
+import type { IPost } from "interfaces";
 import Image from "next/image";
 import styles from "./styles.module.scss";
 
-interface PostFooterProps extends IUserPost {}
+interface PostFooterProps extends IPost {}
 
 const PostFooter = ({ reactions, comments }: PostFooterProps): JSX.Element => {
   return (

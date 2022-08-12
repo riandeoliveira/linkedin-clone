@@ -1,33 +1,14 @@
 import type { LanguageLevel } from "types";
 
 export interface IMenuItem {
-  icon: JSX.Element;
   path: string;
+  icon: JSX.Element;
   title: string;
 }
 
-export interface IUserSuggestion {
-  avatar: string;
-  career: string;
-  fullname: string;
-}
-
-export interface IUserPost {
+export interface IPost {
   comments: number;
   reactions: number;
-}
-
-export interface IFeaturedPost extends IUserPost {
-  content: string;
-  post: string;
-  title: string;
-}
-
-export interface IActivityPost extends IUserPost {
-  author: string;
-  content: string;
-  date: string;
-  post: string;
 }
 
 export interface IJobPosition {
@@ -37,21 +18,7 @@ export interface IJobPosition {
   workplace: string;
 }
 
-export interface IJobExperience {
-  company: string;
-  image: string;
-  period: string;
-  positions: IJobPosition[];
-}
-
-export interface IAcademicEducation {
-  institution: string;
-  course: string;
-  duration: string;
-  image: string;
-}
-
-export interface IUserLanguage {
+export interface ILanguage {
   language: string;
   level: LanguageLevel;
 }

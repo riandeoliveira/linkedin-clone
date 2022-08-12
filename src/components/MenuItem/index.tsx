@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 
 interface MenuItemProps extends IMenuItem {}
 
-const MenuItem = ({ icon, path, title }: MenuItemProps): JSX.Element => {
+const MenuItem = ({ path, icon, title }: MenuItemProps): JSX.Element => {
   return (
     <li className={`${styles.item} ${path === "/work" ? styles.bar : ""}`}>
       <Link href={path}>
