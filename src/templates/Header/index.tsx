@@ -19,7 +19,7 @@ const Header = (): JSX.Element => {
               <div className={styles.search_icon}>
                 <Image
                   src="/assets/icons/search.svg"
-                  alt=""
+                  alt="Ícone de uma lupa para pesquisa"
                   width={17.5}
                   height={17.5}
                 />
