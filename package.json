@@ -60,7 +60,15 @@
     "type": "git",
     "url": "https://github.com/riandeoliveira/LinkedInClone.git"
   },
-  "keywords": [],
+  "keywords": [
+    "7daysofcode",
+    "alura",
+    "javascript",
+    "nextjs",
+    "react",
+    "sass",
+    "typescript"
+  ],
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
