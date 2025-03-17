@@ -56,22 +56,28 @@
     "stylelint": "^14.9.1",
     "typescript": "^4.6.3"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/riandeoliveira/LinkedInClone.git"
-  },
-  "keywords": [
-    "7daysofcode",
-    "alura",
-    "javascript",
-    "nextjs",
-    "react",
-    "sass",
-    "typescript"
-  ],
-  "config": {
-    "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+ "metadata": {
+    "stack": [
+      "js",
+      "nextjs",
+      "react",
+      "sass",
+      "ts"
+    ],
+    "thumbnailUrl": "https://raw.githubusercontent.com/riandeoliveira/linkedin-clone/refs/heads/main/.github/assets/thumbnail.png",
+    "repositoryUrl": "https://github.com/riandeoliveira/linkedin-clone",
+    "projectUrl": "https://linkedin-clone-zeta-three.vercel.app/",
+    "isPrivate": false,
+    "isNew": false,
+    "info": {
+      "enUs": {
+        "fullName": "LinkedIn Clone",
+        "description": "A clone of the LinkedIn profile page with a dark theme. It features a fully responsive layout for various screen sizes."
+      },
+      "ptBr": {
+        "fullName": "Clone do LinkedIn",
+        "description": "Clone da página de perfil do LinkedIn com tema escuro. Possui um layout totalmente responsivo para inúmeros tamanhos de telas."
+      }
     }
   }
 }
