@@ -1,0 +1,23 @@
+{
+  "url": "https://linkedin-clone-zeta-three.vercel.app/",
+  "repository_url": "https://github.com/riandeoliveira/linkedin-clone",
+  "is_private": false,
+  "is_new": false,
+  "stack": [
+    "js",
+    "nextjs",
+    "react",
+    "sass",
+    "ts"
+  ],
+  "info": {
+    "en_us": {
+      "full_name": "LinkedIn Clone",
+      "description": "A clone of the LinkedIn profile page with a dark theme. It features a fully responsive layout for various screen sizes."
+    },
+    "pt_br": {
+      "full_name": "Clone do LinkedIn",
+      "description": "Clone da página de perfil do LinkedIn com tema escuro. Possui um layout totalmente responsivo para inúmeros tamanhos de telas."
+    }
+  }
+}
