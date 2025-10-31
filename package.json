@@ -1,12 +1,7 @@
 {
   "name": "linkedin-clone",
-  "description": "Clone da página de perfil do LinkedIn.",
   "version": "1.0.2",
-  "license": "MIT",
-  "type": "module",
   "private": true,
-  "homepage": "https://linkedin-clone-zeta-three.vercel.app/",
-  "main": "src/pages/_app.tsx",
   "author": {
     "name": "Rian Oliveira",
     "email": "riandiasdeoliveira2001@gmail.com"

@@ -4,10 +4,10 @@ const Document = (): JSX.Element => {
   return (
     <Html lang="pt-br">
       <Head>
-        <meta name="description" content="Clone da página de perfil do LinkedIn." />
-        <meta name="keywords" content="React, Next.js, TypeScript" />
-        <meta name="author" content="Rian Oliveira" />
-        <meta name="theme-color" content="#000000" />
+        <meta
+          name="description"
+          content="Clone da página de perfil do LinkedIn com tema escuro. Possui um layout totalmente responsivo para inúmeros tamanhos de telas."
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <body>

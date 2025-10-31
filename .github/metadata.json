@@ -3,13 +3,7 @@
   "repository_url": "https://github.com/riandeoliveira/linkedin-clone",
   "is_private": false,
   "is_new": false,
-  "stack": [
-    "js",
-    "nextjs",
-    "react",
-    "sass",
-    "ts"
-  ],
+  "stack": ["js", "nextjs", "react", "sass", "ts"],
   "info": {
     "en_us": {
       "full_name": "LinkedIn Clone",

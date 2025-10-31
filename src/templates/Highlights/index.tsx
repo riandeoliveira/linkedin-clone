@@ -7,18 +7,16 @@ const Highlights = (): JSX.Element => {
     <section className={styles.section}>
       <h2 className={styles.title}>Destaques</h2>
       <div className={styles.highlights}>
-        {highlights.map(
-          ({ title, content, post, reactions, comments }, i) => (
-            <Highlight
-              title={title}
-              content={content}
-              post={post}
-              reactions={reactions}
-              comments={comments}
-              key={i}
-            />
-          )
-        )}
+        {highlights.map(({ title, content, post, reactions, comments }, i) => (
+          <Highlight
+            title={title}
+            content={content}
+            post={post}
+            reactions={reactions}
+            comments={comments}
+            key={i}
+          />
+        ))}
       </div>
     </section>
   );
